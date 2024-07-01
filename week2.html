@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/blog/bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container div {
+  margin: 20px 0;
+  flex: 1;
+}
+
+.footer-about, .footer-links, .footer-social {
+  max-width: 300px;
+}
+
+.footer-about p, .footer-links ul, .footer-social ul {
+  text-align: left;
+}
+
+.footer-links ul, .footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li, .footer-social li {
+  margin: 5px 0;
+}
+
+.footer-links a, .footer-social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.footer-social i {
+  margin-right: 8px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i><b>Ahereza Vivian</b></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    EXPERIENCE
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="week1.html">Week 1</a></li>
+                    <li><a class="dropdown-item" href="week2.html">week 2</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav> 
+
+
+      <div class="card-group">
+        <div class="card">
+          <img src="practicals.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i><b>Hands on Experience</b></i></h5>
+            <p class="card-text">Well, having to practically apply the theory seemed a bit tricky a some point but interesting when I understood what I was applying</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="github.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i><b>Introduction to Github</b></i></h5>
+            <p class="card-text">this was another interesting app kind of thing i got to learn about that I had never heard of. And yes I get to appreciate Tech as time goes on</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="7habits.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i><b>Winning The private Victory</b></i></h5>
+            <p class="card-text">Getting to learn the different principles of Effectiveness was such an important aspect to me as far as personal growth is concerned</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+ <footer style="background-color: blueviolet; padding:30px; text-align: center;">
+        <div class="footer-container">
+          <div class="footer-about">
+            <h2>About</h2>
+            <p><i>This Blog is basically meant to take you through my short journey in the Tech industry so Far. Keep tuned for my experience when the journey gets longer, hahaa!!!</i></p>
+          </div>
+          <div class="footer-links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h2>Follow Me</h2>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Vivian. All Rights Reserved.</p>
+        </div>
+      </footer>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="/blog/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
